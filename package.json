@@ -21,7 +21,8 @@
   "homepage": "https://github.com/ivarjon/hopverkefni1#readme",
   "dependencies": {
     "browser-sync": "^2.26.0",
+    "concurrently": "^4.1.0",
     "node-sass": "^4.9.3",
-    "concurrently": "^4.1.0"
+    "stylelint-config-primer": "^8.2.1"
   }
 }
