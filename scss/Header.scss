@@ -1,6 +1,6 @@
 header {
     display: flex;
-    position: static;
+    position: relative;
     background-color: #ff5000;
-    text-align: right;
+    justify-content: right;
 }
