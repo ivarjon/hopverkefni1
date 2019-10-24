@@ -1,6 +1,17 @@
 header {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     background-color: #ff5000;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
+}
+
+header-main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
