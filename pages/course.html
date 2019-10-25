@@ -24,59 +24,71 @@
     </header>
 
     <main>
-      <h2>Námskeið</h2>
-      <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítasi Pétursdóttur. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+      <div class="course-box">
+        <section class="cbox1">
+          <h2>Námskeið</h2>
+          <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítasi Pétursdóttur. Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+        </section>
 
-      <form>
-        <fieldset>
-          <legend>Almennar upplýsingar</legend>
-          <div>
-            <label>Nafn:</label>
-            <input type="text">
-            <label>Heimilisfang:</label>
-            <input type="text">
-            <label>Aldur:</label>
-            <input type="text">
-            <label for="text">Námskeið:</label>
-            <select>
-              <option disabled selected hidden>-Velja póstnúmer-</option>
-              <option>V0 - V1</option>
-              <option>V2 - V4</option>
-              <option>V5 - V7</option>
-              <option>Fjallaklifur</option>
-            </select>
-          </div>
-        </fieldset>
-      </form>
+        <section class="cbox2">
+          <img src="../img/climbing-gym.jpg">
+        </section>
 
-      <form>
-        <fieldset>
-          <legend>Greiðsluupplýsingar</legend>
-          <div>
-            <label>Kortanúmer:</label>
-            <input type="text">
-            <label>Korthafi:</label>
-            <input type="text">
-            <label for="text">Gildistími:</label>
-            <span>
-              <label>Mán:</label>
-              <select>
-                <option disabled selected hidden>-00-</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-              </select>
-              <select>
-                <option disabled selected hidden>-0000-</option>
-                <option>2017</option>
-                <option>2018</option>
-                <option>2019</option>
-              </select>
-            </span>
-          </div>
-        </fieldset>
-      </form>
+        <section class="cbox3">
+          <form>
+            <fieldset>
+              <legend>Almennar upplýsingar</legend>
+              <div>
+                <label>Nafn:
+                <input type="text"></label>
+                <label>Heimilisfang:
+                <input type="text"></label>
+                <label>Aldur:
+                <input type="text"></label>
+                <label for="text">Námskeið:
+                <select>
+                  <option disabled selected hidden>-V0 - 01-</option>
+                  <option>V0 - V1</option>
+                  <option>V2 - V4</option>
+                  <option>V5 - V7</option>
+                  <option>Fjallaklifur</option>
+                </select></label>
+              </div>
+            </fieldset>
+          </form>
+        </section>
 
+        <section class="cbox4">
+          <form>
+            <fieldset>
+              <legend>Greiðsluupplýsingar</legend>
+              <div>
+                <label>Kortanúmer:
+                <input type="text"></label>
+                <label>Korthafi:
+                <input type="text"></label>
+                <span>
+                  <label for="text">Gildistími:
+                  <label>Mán:
+                  <select>
+                    <option disabled selected hidden>-00-</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                  </select>
+                  <label>Ár:
+                  <select>
+                    <option disabled selected hidden>-0000-</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                  </select></label></label>
+                </span></label>
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </div>
       <button>Skrá</button>
     </main>
 
