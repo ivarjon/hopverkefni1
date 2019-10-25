@@ -1,12 +1,24 @@
 footer {
-    display: flex;
     position: relative;
     background-color: #00b7ff;
-    justify-content: space-between;
-    align-items: center;
     color: #fffcf2;
-    margin-top: auto;
 }
+
+.footer-box{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+} .ul1, .ul2, .ul3, .ul4{
+    width: 25%;
+    min-width: 251px;
+    margin-bottom: 30px;
+}
+
 ul{
     list-style-type: none;
 }
