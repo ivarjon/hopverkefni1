@@ -44,6 +44,33 @@ main {
   align-items: center;
 }
 
+.cards{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.kar, .ulf, .ber, .han{
+  width: 50%;
+}
+.kar, .ber{
+  padding-right: 10px;
+} .ulf, .han{
+  padding-left: 10px;
+} .kar{
+  margin-bottom: 30px;
+}
+
+img:nth-child(1){
+  max-width: 100%;
+  height: auto;
+}
 
 @import "scss/Header.scss";
 @import "scss/footer.scss";
