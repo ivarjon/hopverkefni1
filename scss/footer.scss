@@ -7,7 +7,7 @@ footer {
 .footer-box{
     display: flex;
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -17,6 +17,12 @@ footer {
     width: 25%;
     min-width: 251px;
     margin-bottom: 30px;
+}
+
+#copyright{
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
 }
 
 ul{

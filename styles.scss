@@ -12,7 +12,23 @@
 }
 
 h1 {
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
+} h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+}
+
+p{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 24px;
+}
+
+#price{
+  font-weight: bold;
+} #karfa{
+  font-size: 14px;
 }
 
 #header-ul{
@@ -35,6 +51,7 @@ html { /* stylelint-disable-line */
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -53,7 +70,12 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-} #pbutton{
+  transition: ease-in-out 0.2s;
+} button:hover{
+  background-color: #ff5000;
+  transition: ease-in-out 0.2s;
+}
+#pbutton{
   background-color: rgb(185, 185, 185);
   color: #000000;
 	border-radius: 4px;
@@ -62,6 +84,10 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: ease-in-out 0.2s;
+} #pbutton:hover{
+  background-color: #00b7ff;
+  transition: ease-in-out 0.2s;
 }
 
 fieldset{
@@ -69,6 +95,7 @@ fieldset{
 } legend{
   margin-bottom: 20px;
   font-size: 32px;
+  font-weight: bold;
 } label, input{ 
   display: block;
 } label{
