@@ -17,6 +17,8 @@ h1 {
 } h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
+} h3 {
+  font-family: 'Oswald', sans-serif;
 }
 
 p{
@@ -96,6 +98,7 @@ fieldset{
   margin-bottom: 20px;
   font-size: 32px;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 } label, input{ 
   display: block;
 } label{
@@ -104,11 +107,13 @@ fieldset{
   margin-bottom: 20px;
 } input{
   float: right;
-  margin-right: 80px;
-  padding-right: 150px;
+  margin-right: 250px;
+  padding-right: 200px;
+  padding: 5px;
+  border-radius: 4px;
 } select{
   float: right;
-  margin-right: 200px;
+  margin-right: 250px;
 }
 body > main:nth-child(4) > button:nth-child(2){
   margin:0 auto;
