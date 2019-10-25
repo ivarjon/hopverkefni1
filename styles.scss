@@ -46,9 +46,18 @@ main {
 
 button {
   background-color: #00b7ff;
-  border-radius: 4px;
   color: #fffcf2;
+  border-radius: 4px;
   padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} #pbutton{
+  background-color: rgb(185, 185, 185);
+  color: #000000;
+	border-radius: 4px;
+	padding: 8px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -73,6 +82,11 @@ fieldset{
 } select{
   float: right;
   margin-right: 200px;
+}
+body > main:nth-child(4) > button:nth-child(2){
+  margin:0 auto;
+  display: block;
+  margin-bottom: 40px;
 }
 
 .index-box{
@@ -110,6 +124,25 @@ fieldset{
   min-width: 251px;
   margin-bottom: 30px;
 } .cbox1, .cbox3{
+  padding-right: 10px;
+}
+
+.products-box{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  max-width: 1200px;
+  min-width: 251px;
+  margin: auto;
+} .pbox1, .pbox2, .pbox3, .pbox4, .pbox5, .pbox6{
+  width: 33.3%;
+  min-width: 251px;
+  margin-bottom: 30px;
+} .pbox1, .pbox3, .pbox5{
   padding-right: 10px;
 }
 
