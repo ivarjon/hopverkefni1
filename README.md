@@ -23,7 +23,7 @@ grid.css sýnir grind sem fyrirmynd er unnin eftir
 Skrifað er alltaf í scss skrár og EKKI í css skrár í þessu verkefni.
 Sass kerfið býr svo til css skrá fyrir vafrann þegar keyrt er npm run dev.
 
-  3. Upplýsingar um alla sem unnu verkefnið
+    3. Upplýsingar um alla sem unnu verkefnið
 Ívar Jónsson (ivj3@hi.is)
 Jón Karl Kristján Traustason (jkk17@hi.is)
 Aron Bjarki Kristjánsson (abk18@hi.is)
