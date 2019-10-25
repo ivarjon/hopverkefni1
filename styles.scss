@@ -12,7 +12,23 @@
 }
 
 h1 {
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
+} h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+}
+
+p{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 24px;
+}
+
+#price{
+  font-weight: bold;
+} #karfa{
+  font-size: 14px;
 }
 
 #header-ul{
@@ -35,6 +51,7 @@ html { /* stylelint-disable-line */
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -46,13 +63,57 @@ main {
 
 button {
   background-color: #00b7ff;
-  border-radius: 4px;
   color: #fffcf2;
+  border-radius: 4px;
   padding: 15px 52px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition: ease-in-out 0.2s;
+} button:hover{
+  background-color: #ff5000;
+  transition: ease-in-out 0.2s;
+}
+#pbutton{
+  background-color: rgb(185, 185, 185);
+  color: #000000;
+	border-radius: 4px;
+	padding: 8px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: ease-in-out 0.2s;
+} #pbutton:hover{
+  background-color: #00b7ff;
+  transition: ease-in-out 0.2s;
+}
+
+fieldset{
+  border: 0;
+} legend{
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+} label, input{ 
+  display: block;
+} label{
+  padding-right: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
+} input{
+  float: right;
+  margin-right: 80px;
+  padding-right: 150px;
+} select{
+  float: right;
+  margin-right: 200px;
+}
+body > main:nth-child(4) > button:nth-child(2){
+  margin:0 auto;
+  display: block;
+  margin-bottom: 40px;
 }
 
 .index-box{
@@ -64,15 +125,52 @@ button {
   justify-content: flex-start;
   align-content: space-around;
   max-width: 1200px;
+  min-width: 251px;
   margin: auto;
 } .ibox1, .ibox2, .ibox3, .ibox4{
   width: 50%;
+  min-width: 251px;
+  margin-bottom: 30px;
 } .ibox1, .ibox3{
   padding-right: 10px;
-} .ibox2, .ibox4{
-  padding-left: 10px;
-} .ibox1{
+}
+
+.course-box{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  max-width: 1200px;
+  min-width: 251px;
+  margin: auto;
+} .cbox1, .cbox2, .cbox3, .cbox4{
+  width: 50%;
+  min-width: 251px;
   margin-bottom: 30px;
+} .cbox1, .cbox3{
+  padding-right: 10px;
+}
+
+.products-box{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  max-width: 1200px;
+  min-width: 251px;
+  margin: auto;
+} .pbox1, .pbox2, .pbox3, .pbox4, .pbox5, .pbox6{
+  width: 33.3%;
+  min-width: 251px;
+  margin-bottom: 30px;
+} .pbox1, .pbox3, .pbox5{
+  padding-right: 10px;
 }
 
 .cards{
@@ -87,11 +185,10 @@ button {
   margin: auto;
 } .kar, .ulf, .ber, .han{
   width: 50%;
+  min-width: 251px;
 } .kar, .ber{
   padding-right: 10px;
-} .ulf, .han{
-  padding-left: 10px;
-} .kar{
+} .kar, .ulf, .ber, .han{
   margin-bottom: 30px;
 } img:nth-child(1){
   max-width: 100%;
