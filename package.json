@@ -22,7 +22,7 @@
   "dependencies": {
     "browser-sync": "^2.26.0",
     "concurrently": "^4.1.0",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "stylelint-config-primer": "^8.2.1"
   }
 }
